@@ -1,0 +1,16 @@
+.image_container {
+	margin: 25px auto;
+	border: solid 2px #cccccc;
+	border-radius: 10px;
+	width: 600px;
+	height: 550px;
+	overflow: hidden;
+}
+
+.share_img {
+	width: 600px;
+	height: 450px;
+	
+	text-align: center;
+	
+}
