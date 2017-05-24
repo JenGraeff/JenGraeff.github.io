@@ -14,3 +14,32 @@
 	text-align: center;
 	
 }
+
+.share_tools {
+	width: 100%;
+}
+
+@media (max-width: 1024px) {
+
+	.inner_container {
+		max-width: 100%;
+	}
+
+	.image_container {
+		width: 100%;
+	}
+
+	.share_img {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.share_tools {
+		margin-top: 25px;
+	}
+
+
+
+
+
+}
