@@ -441,13 +441,16 @@ ul.slick-dots li {
 
 ul.slick-dots li button {
    text-indent: -9999px;
-   border: none;
-   background-color: #ccc;
-   width: 16px;
-   height: 16px;
-   border-radius: 8px;
-   outline: none;
-   cursor: pointer;
+    border: none;
+    background-color: #ccc;
+    width: 26px;
+    height: 26px;
+    border-radius: 13px;
+    outline: none;
+    cursor: pointer;
+    padding:0;
+
+    margin: 0 10px 40px 10px;
 
 }
 
