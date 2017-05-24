@@ -27,10 +27,12 @@
 
 	.image_container {
 		width: 100%;
+		height: auto;
 	}
 
 	.share_img {
 		width: 100%;
+		height: auto;
 	}
 
 	.share_img img {  
@@ -39,6 +41,7 @@
 
 	.share_tools {
 		margin-top: 25px;
+		margin-bottom: 25px;
 	}
 
 
