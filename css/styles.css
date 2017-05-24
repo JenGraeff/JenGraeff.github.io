@@ -463,13 +463,15 @@ ul.slick-dots li.slick-active button {
     .quote,
     .name,
     .date {
-        max-width: 210px;
+        max-width: 300px;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .quote {
+    .quote,
+    .name {
         font-size: 18px;
+        line-height: 24px;
     }
 
 }
