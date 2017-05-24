@@ -19,7 +19,7 @@
 	width: 100%;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 900px) {
 
 	.inner_container {
 		max-width: 100%;
@@ -31,7 +31,6 @@
 
 	.share_img {
 		width: 100%;
-		max-width: 100%;
 	}
 
 	.share_tools {
