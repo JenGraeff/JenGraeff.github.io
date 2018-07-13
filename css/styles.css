@@ -321,6 +321,12 @@ p {
     display: inline-block;
 }
 
+.carousel-inner {
+    width: 210px;
+    margin: 20px auto;
+    display: block;
+}
+
 .photo,
 .item  {
     border: solid 4px #fff;
@@ -345,7 +351,7 @@ p {
 }
 
 .photo:hover,
-.item:hover img {
+.item:hover .photo img {
     border: solid 4px #ffd200;
 }
 
@@ -424,6 +430,7 @@ p {
     background: transparent url(../images/arrow_left.png) no-repeat top center;
     left: -22px;
     text-indent: -9999px;
+    top: 130px;
 }
 
 .slick-next,
@@ -431,6 +438,7 @@ p {
     background: transparent url(../images/arrow_right.png) no-repeat top center;
     right: -22px;
     text-indent: -9999px;
+    top: 130px;
 }
 
 ul.slick-dots {
