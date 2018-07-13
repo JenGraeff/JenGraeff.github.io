@@ -345,7 +345,7 @@ p {
 }
 
 .photo:hover,
-.item:hover {
+.item:hover img {
     border: solid 4px #ffd200;
 }
 
@@ -419,14 +419,18 @@ p {
 
 }
 
-.slick-prev {
+.slick-prev,
+.carousel-control.left {
     background: transparent url(../images/arrow_left.png) no-repeat top center;
     left: -22px;
+    text-indent: -9999px;
 }
 
-.slick-next {
+.slick-next,
+.carousel-control.right {
     background: transparent url(../images/arrow_right.png) no-repeat top center;
     right: -22px;
+    text-indent: -9999px;
 }
 
 ul.slick-dots {
