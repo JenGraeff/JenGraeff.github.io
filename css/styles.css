@@ -428,7 +428,7 @@ p {
 .slick-prev,
 .carousel-control.left {
     background: transparent url(../images/arrow_left.png) no-repeat top center;
-    left: -22px;
+    left: 0px;
     text-indent: -9999px;
     top: 130px;
 }
@@ -436,7 +436,7 @@ p {
 .slick-next,
 .carousel-control.right {
     background: transparent url(../images/arrow_right.png) no-repeat top center;
-    right: -22px;
+    right: 0px;
     text-indent: -9999px;
     top: 130px;
 }
