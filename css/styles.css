@@ -321,7 +321,8 @@ p {
     display: inline-block;
 }
 
-.photo {
+.photo,
+.item  {
     border: solid 4px #fff;
     transition: all .3s ease;
     overflow: hidden;
@@ -343,7 +344,8 @@ p {
     bottom: 0;
 }
 
-.photo:hover  {
+.photo:hover,
+.item:hover {
     border: solid 4px #ffd200;
 }
 
